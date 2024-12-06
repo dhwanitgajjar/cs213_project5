@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PlacedOrdersActivity"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown" />
+
+
+    <TextView
+        android:id="@+id/textViewOrderTotalPrice"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_height="wrap_content"
+        android:text="@string/total_price_0_00"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonClearOrder"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_order" />
+
+    <Button
+        android:id="@+id/buttonMainMenuPlaced"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_height="wrap_content"
+        android:text="@string/return_to_main_menu" />
+
+
+    <ListView
+        android:id="@+id/listViewPizzas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="8dp" />
+
+</LinearLayout>

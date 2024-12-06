@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".CurrentOrderActivity"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextOrderNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/order_number"
+        android:inputType="none"
+        android:focusable="false"
+        android:background="@android:drawable/edit_text"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/textSubtotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subtotal_0_00" />
+
+    <TextView
+        android:id="@+id/textSalesTax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sales_tax_0_00" />
+
+    <TextView
+        android:id="@+id/textOrderTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_total_0_00" />
+
+    <Button
+        android:id="@+id/buttonClearOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_order" />
+
+    <Button
+        android:id="@+id/placeOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/place_order" />
+
+    <Button
+        android:id="@+id/buttonReturnMainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/return_to_main_menu" />
+
+    <ListView
+        android:id="@+id/listViewCurrentOrder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+
+</LinearLayout>

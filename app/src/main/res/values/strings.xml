@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RUPizzeria</string>
+    <string name="order_number">Order Number</string>
+    <string name="subtotal_0_00">Subtotal: $0.00</string>
+    <string name="sales_tax_0_00">Sales Tax: $0.00</string>
+    <string name="order_total_0_00">Order Total: $0.00</string>
+    <string name="clear_order">Clear Order</string>
+    <string name="place_order">Place Order</string>
+    <string name="return_to_main_menu">Return to Main Menu</string>
+    <string name="placed_order">Placed Order</string>
+    <string name="make_an_order">Make an Order</string>
+    <string name="current_order">Current Order</string>
+    <string name="create_an_order">Create an order</string>
+    <string name="crust">Crust</string>
+    <string name="toppings">Toppings</string>
+    <string name="subtotal_24">SubTotal : 24$</string>
+    <string name="add_to_order">Add to Order</string>
+    <string name="total_price_0_00">Total Price: $0.00</string>
+    <string name="pizza_size_medium">Pizza Size: Medium</string>
+    <string name="pizza_style_new_york">Pizza Style: New York</string>
+    <string name="crust_thin">Crust: Thin</string>
+    <string name="selected_toppings">Selected Toppings:</string>
+    <string name="cheese_n_pepperoni_n_mushrooms">• Cheese\n• Pepperoni\n• Mushrooms</string>
+    <string name="subtotal_12_99">Subtotal: $12.99</string>
+</resources>

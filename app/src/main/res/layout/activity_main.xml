@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Welcome to RU Pizzeria"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Pizza Image -->
+    <ImageView
+        android:id="@+id/imgMain"
+        android:layout_width="350dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="Pizza Image"
+        android:src="@drawable/rutgers_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvWelcome" />
+        <Button
+            android:id="@+id/placedOrders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placed_order" />
+
+        <Button
+            android:id="@+id/makeOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/make_an_order" />
+
+        <Button
+            android:id="@+id/currentOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/current_order" />
+    </LinearLayout>
